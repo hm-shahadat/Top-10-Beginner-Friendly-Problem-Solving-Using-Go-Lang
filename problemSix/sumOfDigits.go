@@ -3,6 +3,7 @@ package problemSix
 import "fmt"
 
 func SumofDigits() {
+	fmt.Println("---It's an Sum of Digits---")
 
 	var forVal int
 	fmt.Print("Please enter numbers for addition: ")
