@@ -1,6 +1,6 @@
 This is Top 10 Beginner Friendly Problem Solving Using Go Lang Which Is for not beginner this is for them how is already understand the basic of Go Lang. At first you have to complete my previous basic go lang repository then comes hare and trying to solve all the problem by your self. I add all the questions below. 
 
-Sure! Here are **10 beginner-friendly programming problems** similar to Fibonacci, Pascal's Triangle, odd/even, etc. These are good for practicing **loops, conditions, arrays, and basic logic**.
+Here are **10 beginner-friendly programming problems** similar to Fibonacci, Pascal's Triangle, odd/even, etc. These are good for practicing **loops, conditions, arrays, and basic logic**.
 🟢 Beginner Programming Problems
 
 1. **Odd or Even**
