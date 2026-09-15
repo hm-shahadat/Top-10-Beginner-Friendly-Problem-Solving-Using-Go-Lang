@@ -77,3 +77,5 @@ If you're learning programming from the beginning, solve them in this order:
 **Odd/Even → Multiplication Table → Sum of Digits → Factorial → Reverse Number → Palindrome → Prime → Fibonacci → Armstrong → Pascal's Triangle**
 
 After these, you can move to **arrays, strings, sorting, searching, recursion, and pattern problems**.
+
+## My solving serial is not same with this questions serial ##
