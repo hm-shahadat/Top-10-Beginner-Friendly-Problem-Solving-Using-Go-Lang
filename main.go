@@ -3,17 +3,18 @@ package main
 import (
 	"fmt"
 
-	problemfive "bdtask.com/problemSolving/problemFive"
+	"bdtask.com/problemSolving/problemFive"
 	"bdtask.com/problemSolving/problemFour"
 	"bdtask.com/problemSolving/problemOne"
-	problemsix "bdtask.com/problemSolving/problemSix"
+	"bdtask.com/problemSolving/problemSeven"
+	"bdtask.com/problemSolving/problemSix"
 	"bdtask.com/problemSolving/problemThree"
 	"bdtask.com/problemSolving/problemTwo"
 )
 
 func main() {
 	var problemNumber int
-	fmt.Println("Please tell me which program you want to run (1 to 10) \n 1.Odd Even \n 2.Fibonacci Series \n 3.Factorial \n 4.Prime Number \n 5.Multiplication Table \n 6.Sum of Digits ")
+	fmt.Println("Please tell me which program you want to run (1 to 10) \n 1.Odd Even \n 2.Fibonacci Series \n 3.Factorial \n 4.Prime Number \n 5.Multiplication Table \n 6.Sum of Digits \n 7.Reverse Number ")
 	fmt.Scan(&problemNumber)
 
 	switch problemNumber {
@@ -29,9 +30,11 @@ func main() {
 	case 4:
 		problemFour.PrimeNumber()
 	case 5:
-		problemfive.MultiplicationTable()
+		problemFive.MultiplicationTable()
 	case 6:
-		problemsix.SumofDigits()
+		problemSix.SumofDigits()
+	case 7:
+		problemSeven.ReverseNumber()
 
 	}
 }
