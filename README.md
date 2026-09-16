@@ -72,9 +72,14 @@ Here are **10 beginner-friendly programming problems** similar to Fibonacci, Pas
 * `1³ + 5³ + 3³ = 153`
 * Therefore, `153 → Armstrong Number`
 
+11. **Sorting Number**
+
+* Example: `7465`
+* Output: `4567`
+
 If you're learning programming from the beginning, solve them in this order:
 
-**Odd/Even → Multiplication Table → Sum of Digits → Factorial → Reverse Number → Palindrome → Prime → Fibonacci → Armstrong → Pascal's Triangle**
+**Odd/Even → Multiplication Table → Sum of Digits → Factorial → Reverse Number → Sorting → Palindrome → Prime → Fibonacci → Armstrong → Pascal's Triangle**
 
 After these, you can move to **arrays, strings, sorting, searching, recursion, and pattern problems**.
 

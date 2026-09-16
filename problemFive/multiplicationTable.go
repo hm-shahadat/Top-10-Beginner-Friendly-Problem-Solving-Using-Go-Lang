@@ -1,4 +1,4 @@
-package problemfive
+package problemFive
 
 import "fmt"
 
