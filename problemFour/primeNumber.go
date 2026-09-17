@@ -18,7 +18,7 @@ func PrimeNumber() {
 	if in > 1 && in/in == 0 {
 		fmt.Println("It's a prime number")
 	} else if in == 1 {
-		fmt.Println("It's not a prime number")
+		fmt.Println("It's not a prime nfumber")
 	} else {
 		fmt.Println("It's not a prime number")
 	}

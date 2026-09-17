@@ -11,8 +11,8 @@ func ReverseNumber() {
 	var res int
 
 	for n > 0 {
-		res = n % 10 // 123---res=3// 12---2
-		n = n / 10   // 123 --- 12 // 1
+		res = n % 10
+		n = n / 10
 		fmt.Print(res)
 
 	}
