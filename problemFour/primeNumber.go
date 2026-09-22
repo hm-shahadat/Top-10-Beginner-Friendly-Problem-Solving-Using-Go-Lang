@@ -3,26 +3,28 @@ package problemFour
 import "fmt"
 
 func PrimeNumber() {
+
 	fmt.Println("---It's an checker of prime or not prime---")
 
-	// var count int
-	// fmt.Print("Please enter a number how many times you want to run the program: ")
-	// fmt.Scan(&count)
-
-	// for i := 0; i < count; i++ {
-
-	var in int
+	var n int
 	fmt.Print("Please enter a number which you want to check prime or not prime: ")
-	fmt.Scan(&in)
+	fmt.Scan(&n)
 
-	if in > 1 && in/in == 0 {
-		fmt.Println("It's a prime number")
-	} else if in == 1 {
-		fmt.Println("It's not a prime nfumber")
-	} else {
+	if n <= 1 {
 		fmt.Println("It's not a prime number")
+		return
 	}
-	PrimeNumber()
-}
 
-// }
+	if n == 2 || n == 3 || n == 5 || n == 7 {
+		fmt.Println("It's a prime number")
+	}
+
+	if n%2 == 0 || n%3 == 0 || n%5 == 0 || n%7 == 0 {
+		fmt.Println("It's not a prime number")
+	} else {
+		fmt.Println("It's a prime number")
+	}
+
+	PrimeNumber()
+
+}
