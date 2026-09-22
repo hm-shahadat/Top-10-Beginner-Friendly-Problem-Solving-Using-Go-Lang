@@ -10,13 +10,14 @@ import (
 	"bdtask.com/problemSolving/problemOne"
 	"bdtask.com/problemSolving/problemSeven"
 	"bdtask.com/problemSolving/problemSix"
+	"bdtask.com/problemSolving/problemTen"
 	"bdtask.com/problemSolving/problemThree"
 	"bdtask.com/problemSolving/problemTwo"
 )
 
 func main() {
 	var problemNumber int
-	fmt.Println("Please tell me which program you want to run (1 to 10) \n 1.Odd Even \n 2.Fibonacci Series \n 3.Factorial \n 4.Prime Number \n 5.Multiplication Table \n 6.Sum of Digits \n 7.Reverse Number \n 8.Palindrome Number \n 9.Armstrong Number")
+	fmt.Println("Please tell me which program you want to run (1 to 10) \n 1.Odd Even \n 2.Fibonacci Series \n 3.Factorial \n 4.Prime Number \n 5.Multiplication Table \n 6.Sum of Digits \n 7.Reverse Number \n 8.Palindrome Number \n 9.Armstrong Number \n 10.Pascal's Triangle ")
 	fmt.Scan(&problemNumber)
 
 	switch problemNumber {
@@ -41,6 +42,8 @@ func main() {
 		problemEight.PalindromeNumber()
 	case 9:
 		problemNine.ArmstrongNumber()
+	case 10:
+		problemTen.PascalTriangle()
 
 	}
 
